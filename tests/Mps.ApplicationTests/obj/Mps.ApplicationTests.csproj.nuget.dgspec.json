@@ -1,0 +1,354 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/w/RiderProjects/itmo-oop-3sem/Lab6/tests/Mps.ApplicationTests/Mps.ApplicationTests.csproj": {}
+  },
+  "projects": {
+    "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Application/Mps.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Application/Mps.Application.csproj",
+        "projectName": "Mps.Application",
+        "projectPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Application/Mps.Application.csproj",
+        "packagesPath": "/home/w/.nuget/packages/",
+        "outputPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/w/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Domain/Mps.Domain.csproj": {
+                "projectPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Domain/Mps.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Domain/Mps.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Domain/Mps.Domain.csproj",
+        "projectName": "Mps.Domain",
+        "projectPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Domain/Mps.Domain.csproj",
+        "packagesPath": "/home/w/.nuget/packages/",
+        "outputPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/w/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Infrastructure/Mps.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Infrastructure/Mps.Infrastructure.csproj",
+        "projectName": "Mps.Infrastructure",
+        "projectPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Infrastructure/Mps.Infrastructure.csproj",
+        "packagesPath": "/home/w/.nuget/packages/",
+        "outputPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/w/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Application/Mps.Application.csproj": {
+                "projectPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Application/Mps.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/w/RiderProjects/itmo-oop-3sem/Lab6/tests/Mps.ApplicationTests/Mps.ApplicationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/tests/Mps.ApplicationTests/Mps.ApplicationTests.csproj",
+        "projectName": "Mps.ApplicationTests",
+        "projectPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/tests/Mps.ApplicationTests/Mps.ApplicationTests.csproj",
+        "packagesPath": "/home/w/.nuget/packages/",
+        "outputPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/tests/Mps.ApplicationTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/w/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Infrastructure/Mps.Infrastructure.csproj": {
+                "projectPath": "/home/w/RiderProjects/itmo-oop-3sem/Lab6/src/Mps.Infrastructure/Mps.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
